@@ -12,47 +12,28 @@ body {
   font-weight: 900;
 }
 
-.item2 {
-  padding: 40px 25px;
-  background-color: blue;
-  border: 3px solid greenyellow;
-  margin: 0;
-  font-size: 24px;
-  font-weight: 900;
-}
-
-
-.flex4 {
+.flex {
   display: flex;
-  justify-content: start;
-  align-items: stretch;
-  border: 3px solid #ff0404;
-  background-color: purple;
-  margin: 50px 20px;
-}
-
-.flex5 {
-  display: flex;
-  justify-content: start;
   align-items: center;
+  flex-wrap: wrap;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
 }
 
-.flex6 {
+.flex1 {
   display: flex;
-  justify-content: start;
-  align-items: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
 }
 
-.flex7 {
+.flex2 {
   display: flex;
-  justify-content: start;
-  align-items: flex-start;
+  align-items: center;
+  flex-wrap: wrap-reverse;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
