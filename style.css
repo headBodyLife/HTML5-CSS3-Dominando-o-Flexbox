@@ -3,6 +3,10 @@ body {
   color: black;
 }
 
+p {
+  font-size: 20px;
+}
+
 .item {
   padding: 25px;
   background-color: blue;
@@ -15,12 +19,9 @@ body {
 
 .flex {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-flow: column nowrap;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
-  gap: 140px;
 
 }
