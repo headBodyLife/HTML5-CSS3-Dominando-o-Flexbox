@@ -3,6 +3,10 @@ body {
   color: black;
 }
 
+p {
+  font-size: 20px;
+}
+
 .item {
   padding: 25px;
   background-color: blue;
@@ -10,31 +14,14 @@ body {
   margin: 0;
   font-size: 24px;
   font-weight: 900;
+
 }
 
 .flex {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-flow: column nowrap;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
-}
 
-.flex1 {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  border: 3px solid #ff0404;
-  background-color: purple;
-  margin: 50px 20px;
-}
-
-.flex2 {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-  border: 3px solid #ff0404;
-  background-color: purple;
-  margin: 50px 20px;
 }
