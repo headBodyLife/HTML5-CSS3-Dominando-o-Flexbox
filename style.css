@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
@@ -27,7 +28,8 @@ body {
 .flex1 {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  align-items: start;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
@@ -38,7 +40,8 @@ body {
 .flex2 {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: flex-end;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
@@ -49,29 +52,8 @@ body {
 .flex3 {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  border: 3px solid #ff0404;
-  background-color: purple;
-  margin: 50px 20px;
-  height: 600px;
-
-}
-
-.flex4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 3px solid #ff0404;
-  background-color: purple;
-  margin: 50px 20px;
-  height: 600px;
-
-}
-
-.flex5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: stretch;
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
