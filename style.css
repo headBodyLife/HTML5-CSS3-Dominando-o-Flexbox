@@ -19,9 +19,38 @@ p {
 
 .flex {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
+  justify-content: center;
+
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
+  height: 200px;
+
+
+}
+
+.start {
+  align-self: flex-start;
+  flex-grow: 1;
+  order: 5;
+}
+
+.end {
+  align-self: flex-end;
+  flex-grow: 2;
+  order: 2;
+
+}
+
+.strecth {
+  align-self: stretch;
+  flex-grow: 3;
+
+}
+
+.center {
+  align-self: center;
+  flex-grow: 4;
 
 }
