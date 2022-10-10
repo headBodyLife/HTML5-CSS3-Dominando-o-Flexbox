@@ -14,14 +14,33 @@ p {
   margin: 0;
   font-size: 24px;
   font-weight: 900;
-
 }
 
 .flex {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
+  justify-content: center;
+
   border: 3px solid #ff0404;
   background-color: purple;
   margin: 50px 20px;
+  height: 200px;
 
+
+}
+
+.start {
+  align-self: flex-start;
+}
+
+.end {
+  align-self: flex-end;
+}
+
+.strecth {
+  align-self: stretch;
+}
+
+.center {
+  align-self: center;
 }
